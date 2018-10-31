@@ -1,0 +1,152 @@
+body{
+	width:350px;
+	height:500px;
+	background-color: white;
+	margin-top:15px;
+	border-bottom:1px solid black;
+}
+#ba{
+	position:absolute;
+	bottom:15px;
+	left:3px;
+}
+#b1{
+	padding-left:61px;
+	padding-right:61px;
+	border:1px solid #b30000;
+	border-radius:4px;
+	margin-right:5px;
+	margin-left:6px;
+}
+#b2{
+	padding-left:63px;
+	padding-right:62px;
+	border:1px solid green;
+	border-radius:4px;
+}
+.ctts{
+	margin-top:-10px;
+	padding-bottom:10px;
+	border-bottom:1px solid #cccccc;
+}
+.item{
+	padding-top:10px;
+}
+select{
+	width:100%;
+	border:1px solid black;
+	border-radius:4px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#address1{
+	padding-top:5px;
+	width:100%;
+	padding-bottom:10px;
+}
+.hdng{
+	font-family: Verdana, Geneva, sans-serif;
+	font-variant: small-caps;
+	font-size:13px;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke:0.5px black;	
+	color:black;
+	padding-left:3px;
+}
+#hdng1{
+	padding-right:133px;
+}
+#hdng2{
+	padding-right:165px;
+}
+.ui.search.dropdown{
+	width:100%;
+	margin-top:5px;
+	margin-bottom:10px;
+	background-color:white;
+}
+.ui.search.dropdown .decoy{
+	color: rgba(191, 191, 191, 0.87);
+}
+.ui.search.dropdown:focus{
+	border: 1px solid  #99ccff;
+	outline:none;
+}
+.ui.search.dropdown::-webkit-scrollbar-track
+{
+	
+	border-radius: 10px;
+	background-color: #F5F5F5;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.ui.search.dropdown::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+.ui.search.dropdown::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	
+	background-color: #FFF;
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(0, 0, 0, 1) 0%,
+											  rgba(0, 0, 0, 1) 25%,
+											  transparent 100%,
+											  rgba(0, 0, 0, 1) 75%,
+											  transparent);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+}
+#address{
+	font-family: Verdana, Geneva, sans-serif;
+}
+#addrsss::placeholder{
+	font-family: Verdana, Geneva, sans-serif;
+}
+#err{
+	position:relative;
+	top:30px;
+}
+#err #err1{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:14px;
+	text-align:center;
+}
+.counter{
+	width:15px;
+	position:absolute;
+	top:203px;
+	left:340px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+.counter .ctr{
+	position:relative;
+	right:5px;
+	color:#009933;
+	opacity:0.7;
+}
+.ui.input>input{
+	padding-right:25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

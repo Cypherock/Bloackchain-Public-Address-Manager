@@ -1,4 +1,4 @@
-# Bloackchain-Public-Address-Manager
+# Blockchain-Public-Address-Manager
 
 Manage all your public addresses easily and copy to clipboard by only just one click.
 Manage all your Public Addresses easily and eliminate the need to type the long string again and again.

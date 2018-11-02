@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Add Public Key</title>	
+	<link rel="stylesheet" type="text/css" href="css/input.css">
+	<link rel="stylesheet" type="text/css" href="css/button.css">
+	<link rel="stylesheet" type="text/css" href="css/dropdown.css">
+	<link rel="stylesheet" type="text/css" href="css/message.css">
+	<link rel="stylesheet" type="text/css" href="css/popup_2.css">	
+</head>
+<body id="bb2">
+<div class="ctts">
+	<div class="item" id="item1">
+		<label class="hdng" id="hdng1">Exchange:</label>
+		<select class="ui search dropdown" id="exchange">
+			<option value="" class="decoy">Select an exchange</option>
+			
+		</select>
+	</div>
+	<div class="item" class="item2">
+		<label class="hdng" id="hdng2">Coin:</label>
+		<select class="ui search dropdown" id="coin">
+			<option value="" class="decoy">select a coin</option>
+			<option value="-1">Other</option>
+			
+		</select>
+	</div>
+	<div class="item" id="item3">
+		<label class="hdng" id="hdng3">Address:</label>
+		<div class="ui input" id="address1">
+			<input type="text" placeholder="Enter the address here..." id="address">
+		</div>
+	</div>
+	<div class="item" id="item4">
+		<label class="hdng" id="hdng4">Alias for the coin(optional):</label>
+		<div class="ui input" id="address1">
+			<input type="text" placeholder="Enter some name..." id="alias">
+		</div>
+	</div>
+	
+	<div id="err">
+	</div>
+	
+	<div class="ui buttons" id="ba">
+		<button class="negative ui button" id="b1">Cancel</button>
+		<button class="ui positive button" id="b2">Save</button>
+	</div>
+	<div class="counter">
+		<label class="ctr" id="ctrv"></label>
+	</div>
+</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/popup_2.js"></script>
+</body>
+</html>
